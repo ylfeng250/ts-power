@@ -10,6 +10,8 @@ $ npm i ts-power --save
 
 ## Usage
 
+### findLongSetCommonPrefix 获取最长公共前缀
+
 ```jsx
 import { findLongSetCommonPrefix } from "ts-power";
 

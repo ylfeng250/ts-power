@@ -1,7 +1,7 @@
 /**
  * 查找字符串数组中的最长公共前缀。如果不存在公共前缀，返回空字符串 ""。
  * @param strs 传入的数组字符串
- * @returns 返回数组字符串的最长公共子串
+ * @returns 返回数组字符串的最长公共前缀
  *
  * @example
  * const strs = ["flower","flow","flight"];
