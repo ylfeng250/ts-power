@@ -22,6 +22,8 @@ const res = findLongSetCommonPrefix(strs); // 'fl'
 ### romanToInt 罗马数字转阿拉伯数字
 
 ```jsx
+import { romanToInt } from "ts-power";
+
 const s = "LVIII";
 const res = romanToInt(s); // 58
 ```
