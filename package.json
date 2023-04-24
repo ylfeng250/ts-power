@@ -45,13 +45,14 @@
     "ts 强化工具"
   ],
   "dependencies": {
-    "@swc/helpers": "^0.4.14",
-    "@ice/jsx-runtime": "^0.2.0"
+    "@ice/jsx-runtime": "^0.2.0",
+    "@swc/helpers": "^0.4.14"
   },
   "devDependencies": {
     "@applint/spec": "^1.2.3",
     "@ice/pkg": "^1.0.0",
     "@ice/pkg-plugin-docusaurus": "^1.0.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.0.0",
     "stylelint": "^15.0.0"
   },
@@ -60,8 +61,13 @@
   },
   "license": "MIT",
   "author": "六奇",
-  "private":false,
+  "private": false,
   "repository": {
     "url": "https://github.com/ylfeng250/ts-power"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
